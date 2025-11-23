@@ -139,13 +139,13 @@
     const HERO_SRC='고소차 점검.png';
 
     const checklistTemplate=[
-      { key:'anti_overrise', label:'과상승방지봉',   method:'과상승방지봉 4개소 설치, 60cm 이상 확장 상태 확인하고 작동상태 확인할 것', refImg:'과상승.png' },
+      { key:'anti_overrise', label:'과상승방지봉',   method:'과상승방지봉 4개소 설치, 60cm 이상 확장 상태 확인하고 센서 작동상태 확인할 것', refImg:'과상승.png' },
       { key:'foot_switch',   label:'풋스위치',       method:'풋 스위치 덮개 부착 여부 및 작동상태 확인할 것',                          refImg:'풋.png' },
       { key:'alarm',         label:'경보장치',       method:'주행/하강/과부하시 경보장치(경보음/경광등) 작동상태 확인할 것',            refImg:'경고.png' },
       { key:'control_panel', label:'조작부',         method:'조작부 오염상태(버튼명, 방향표시 등 식별 가능 여부) 확인할 것',             refImg:'조작부.jpg' },
       { key:'emg_stop',      label:'비상 정지 장치', method:'비상 정지 장치 작동 상태 확인할 것(명칭 등 안내판 부착 여부 확인)',        refImg:'비상정지.png' },
-      { key:'emg_lower',     label:'비상 하강 장치', method:'비상 하강 장치 작동 상태 확인할 것(명칭 등 안내판 부착 여부 확인)',        refImg:'비상하강.jpg' },
-      { key:'etc',           label:'기타사항',       method:'타이어 및 주요 구조부 균열 상태 확인할 것',                               refImg:'타이어.png' }
+      { key:'emg_lower',     label:'비상 하강 장치', method:'비상 하강 장치 작동 상태 확인할 것(명칭 등 안내판 부착 여부 확인)',        refImg:'비상하강.png' },
+      { key:'etc',           label:'기타사항',       method:'타이어 및 주요 구조부 균열 상태, 내부 청소상태 확인할 것',                               refImg:'타이어.png' }
     ];
 
     const state={date:'',org:'',site:'',inspector:'',equip:'고소차(자주형)',equipId:'',checks:Object.fromEntries(checklistTemplate.map(i=>[i.key,''])),remarks:'',action:''};
