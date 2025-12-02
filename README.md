@@ -145,7 +145,7 @@
       { key:'control_panel', label:'조작부',         method:'조작부 오염상태(버튼명, 방향표시 등 식별 가능 여부) 확인할 것',             refImg:'조작부.jpg' },
       { key:'emg_stop',      label:'비상 정지 장치', method:'비상 정지 장치 작동 상태 확인할 것(명칭 등 안내판 부착 여부 확인)',        refImg:'비상정지.png' },
       { key:'emg_lower',     label:'비상 하강 장치', method:'비상 하강 장치 작동 상태 확인할 것(명칭 등 안내판 부착 여부 확인)',        refImg:'비상하강.png' },
-      { key:'boom',          label:'붐/주요 구조부', method:'붐대 및 주요 구조부 균열 상태 확인할 것',                                     refImg:'붐.png' },
+      { key:'boom',          label:'붐/주요 구조부', method:'붐대 및 주요 구조부 균열 상태 확인할 것',                                     refImg:'붐.jpg' },
       { key:'etc',           label:'기타사항',       method:'타이어 및 내부 청소상태 확인할 것',                               refImg:'기타.png' }
     ];
 
